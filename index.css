@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 7em 0 0 0;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+#nav-main img {
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+#navbar-list a {
+    font-size: 1.3rem;
+}
+
+#landing {
+    color: white;
+    min-height: 50%;
+    background-image: linear-gradient(to left bottom, #3FAA85, #3F4A3C);
+}
+
+
+#landing img {
+    width: clamp(60%, 60%, 100%);
+    object-fit: cover;
+}
+
+#profileName h1 {
+    font-size: 3em;
+}
+
+#profileName p {
+    font-size: 1.2rem;
+}
+
+#socialNav i {
+    font-size: clamp(3.5em, 4.3vw, 5em);
+}
+
+#socialNav i:hover {
+    transform: scale(1.1);
+}
+
+
+#about-section {
+    min-height: 50%;
+}
+
+#aboutBody {
+    width: clamp(45ch, 50%, 75ch);
+    text-align: justify;
+}
+
+#aboutBody p {
+    font-size: 1.5rem;
+}
+
+#projects {
+    min-height: 50%;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card i:hover {
+    transform: scale(1.2);
+}
+
+#tools img {
+    width: clamp(75%, 50%, 100%);
+    object-fit: cover;
+}
+
+#contactPNG a:hover {
+    transform: scale(1.1);
+}
